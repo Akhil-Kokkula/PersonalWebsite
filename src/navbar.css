@@ -1,0 +1,36 @@
+.navbarItems {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 30px;
+}
+
+.navMenu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    grid-gap: 40px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links-unique {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-links:hover {
+    color: gray;
+}
+
+.header {
+    text-decoration: none;
+    color: black;
+}
