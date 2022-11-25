@@ -1,7 +1,13 @@
-export default function Resume () {
-  return (
-      <h1>
-          Resume
-      </h1>
-  );
+import React, { Component } from "react";
+
+class Resume extends Component {
+  render() {
+    return (
+      <div>
+        <p>Resume</p>
+      </div>
+    );
+  }
 }
+
+export default Resume;

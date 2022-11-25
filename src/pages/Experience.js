@@ -1,7 +1,12 @@
-export default function Experience () {
-  return (
-      <h1>
-          Experience
-      </h1>
-  );
+import React, { Component } from "react";
+
+class Experience extends Component {
+  render() {
+    return (
+      <div>
+        <p>Experience</p>
+      </div>
+    );
+  }
 }
+export default Experience;

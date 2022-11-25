@@ -1,7 +1,12 @@
-export default function Contact () {
-  return (
-      <h1>
-          Contact
-      </h1>
-  );
+import React, { Component } from "react";
+
+class Contact extends Component {
+  render() {
+    return (
+      <div>
+        <p>Contact</p>
+      </div>
+    );
+  }
 }
+export default Contact;
