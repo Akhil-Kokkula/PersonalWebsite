@@ -10,7 +10,8 @@ import "./home.css";
 class Home extends Component {
   render() {
     return (
-    <div className="page" style={{backgroundColor:'#e6f4ff'}}>
+    <div>
+      <div className="page" style={{backgroundColor:'#e6f4ff'}}>
       <div className="container-home">
         <div className="text-zone">
             <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <br /> </h1>
@@ -31,6 +32,9 @@ class Home extends Component {
         </div>
       </div>
       </div>
+      <div className="background"/>
+    </div>
+    
     );
   }
 }

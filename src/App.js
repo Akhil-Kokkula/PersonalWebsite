@@ -5,7 +5,7 @@ import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Leadership";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {

@@ -7,7 +7,7 @@ import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import Leadership from "./pages/Leadership";
 import { Navbar, Nav } from "react-bootstrap";
 
 class NavBar2 extends Component {
@@ -34,8 +34,7 @@ class NavBar2 extends Component {
                         <Route path="/about" element={<About />}/>
                         <Route path="/experience" element={<Experience/>}/>
                         <Route path="/projects" element={<Projects/>}/>
-                        <Route path="/resume" element={<Resume/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/leadership" element={<Leadership/>}/>
                     </Routes> 
                 </div>
                 

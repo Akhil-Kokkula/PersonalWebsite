@@ -20,13 +20,13 @@ export const NavbarData = [
         cName: "nav-links",
     },
     {
-        title: "Resume",
-        url: "/resume",
+        title: "Leadership",
+        url: "/leadership",
         cName: "nav-links",
     },
     {
-        title: "Contact Me",
-        url: "/contact",
+        title: "Resume",
+        url: "https://drive.google.com/file/d/12Z-BjtPIX_11C6l9KsujFSOKgIfpdaEZ/view?usp=sharing",
         cName: "nav-links",
     },
 
