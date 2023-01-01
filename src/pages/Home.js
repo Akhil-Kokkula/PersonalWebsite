@@ -5,16 +5,25 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import BlueUnderline from "./images/BlueUnderline.png"
 import "./home.css";
+import Java from "./images/Java.jpeg";
+import Python from "./images/python.png";
+import ReactJS from "./images/react.png";
+import Flask from "./images/flask.png";
+import HTML from "./images/Html.png";
+import CSS from "./images/css.png";
+import Database from "./images/Database.png";
+import DataAnalysis from "./images/DataAnalysis.png";
 
 class Home extends Component {
   render() {
     return (
     <div>
-      <div className="page" style={{backgroundColor:'#e6f4ff'}}>
+      <div>
       <div className="container-home">
         <div className="text-zone">
-            <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <br /> </h1>
+            <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <img className="cursor" style={{marginBottom: 15}}/></h1>
             <ul className="list-design">
                 <li>👨‍💻 Software Developer</li>
                 <li>💼 Incoming SWE Intern @ Microsoft</li>
@@ -33,6 +42,23 @@ class Home extends Component {
       </div>
       </div>
       <div className="background"/>
+      <div className="title-center"><h2 className="title">My Skills</h2><img src={BlueUnderline} style={{width:100, height: 5, marginTop: 0, marginBottom: 40}}></img></div>
+      <ul className="yline2">
+          <ul className="xline2">
+            <div className="txtboxV2"><img src={Java} style = {{width: 180,height: 170, marginLeft: 40, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>Java</h4></div>
+            <div className="txtboxV2"><img src={Python} style = {{width: 150, height: 150, marginLeft: 55, marginTop: 35}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>Python</h4></div>
+            <div className="txtboxV2"><img src={ReactJS} style = {{width: 180,height: 150, marginLeft: 35, marginTop: 30}}/><h4 style={{textAlign: "center", marginTop: 40, fontFamily: 'Helvetica', fontWeight:"bold"}}>ReactJS</h4></div>
+            <div className="txtboxV2"><img src={Flask} style = {{width: 160,height: 160, marginLeft: 45, marginTop: 30}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>Flask</h4></div>
+          </ul>
+          <ul className="xline2">
+            <div className="txtboxV2"><img src={HTML} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>HTML</h4></div>
+            <div className="txtboxV2"><img src={CSS} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>CSS</h4></div>
+            <div className="txtboxV2"><img src={Database} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 15, fontFamily: 'Helvetica', fontWeight:"bold"}}>Database<br/> <span style={{fontSize: 18}}>(SQLite, MongoDB)</span></h4></div>
+            <div className="txtboxV2"><img src={DataAnalysis} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 15, fontFamily: 'Helvetica', fontWeight:"bold"}}>Data Analysis<br/><span style={{fontSize: 18}}>(SQL, KQL, R)</span></h4></div>
+          </ul>
+      </ul>
+      <div style={{marginBottom: 80}}></div>
+      {/* java, python, reactjs, flask, sqlite, data querying (sql, kql, r), HTML, CSS */}
     </div>
     
     );
