@@ -15,12 +15,12 @@ import HTML from "./images/Html.png";
 import CSS from "./images/css.png";
 import Database from "./images/Database.png";
 import DataAnalysis from "./images/DataAnalysis.png";
+import Profile from "./images/profile2.png";
 
 class Home extends Component {
   render() {
     return (
     <div>
-      <div>
       <div className="container-home">
         <div className="text-zone">
             <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <img className="cursor" style={{marginBottom: 15}}/></h1>
@@ -39,9 +39,28 @@ class Home extends Component {
                 <li><a href="//kokkulaak@gmail.com"><FiMail size="1.5em" color="black"/></a></li>
             </ul>
         </div>
+        <img src={Profile} className = "img-home" style={{width: "auto", height: 550, marginLeft: 750, marginTop: 30}}/>
       </div>
-      </div>
-      <div className="background"/>
+      {/* <div className="container-home">
+        <div className="text-zone">
+            <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <img className="cursor" style={{marginBottom: 15}}/></h1>
+            <ul className="list-design">
+                <li>👨‍💻 Software Developer</li>
+                <li>💼 Incoming SWE Intern @ Microsoft</li>
+                <li>📚 Computer Science @ Boston University</li>
+            </ul>
+            <div className="button-container">
+                <Button variant="primary" href="/about" size="20px">About Me</Button>{' '}
+            </div>
+
+            <ul className="list-design2">
+                <li><a href="//www.linkedin.com/in/kokkula-akhil"><FaLinkedin size="1.5em" color="black"/></a></li>
+                <li><a href="https://github.com/Akhil-Kokkula"><FaGithub size="1.5em" color="black"/></a></li>
+                <li><a href="//kokkulaak@gmail.com"><FiMail size="1.5em" color="black"/></a></li>
+            </ul>
+        </div>
+      </div> */}
+      {/* <div className="background"/> */}
       <div className="title-center"><h2 className="title">My Skills</h2><img src={BlueUnderline} style={{width:100, height: 5, marginTop: 0, marginBottom: 40}}></img></div>
       <ul className="yline2">
           <ul className="xline2">

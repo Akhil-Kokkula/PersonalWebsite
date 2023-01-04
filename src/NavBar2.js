@@ -9,6 +9,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Leadership from "./pages/Leadership";
 import { Navbar, Nav } from "react-bootstrap";
+import {NavLink} from 'react-router-dom';
 
 class NavBar2 extends Component {
     render() {
@@ -30,8 +31,8 @@ class NavBar2 extends Component {
                 </div>
                 <div>
                     <Routes>
-                        <Route exact path="/" element={<Home />}/>
-                        <Route path="/about" element={<About />}/>
+                        <Route exact path="/" activeStyle={{color: 'gray'}} element={<Home />}/>
+                        <Route path="/about" activeStyle={{color: 'gray'}} element={<About />}/>
                         <Route path="/experience" element={<Experience/>}/>
                         <Route path="/projects" element={<Projects/>}/>
                         <Route path="/leadership" element={<Leadership/>}/>
