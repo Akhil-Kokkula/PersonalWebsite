@@ -8,7 +8,7 @@ class Experience extends Component {
   render() {
     return (
       <div>
-        <div className="title-center"><h2 className="title">Experience</h2><img src={BlueUnderline} style={{width:125, height: 5, marginTop: 0}}/></div>
+        <div className="title-center"><h2 className="title">Experience</h2><img src={BlueUnderline} style={{width:125, height: 5, marginBottom: 20}}/></div>
         <ul className="yline">
           <ul className="xline">
             <div className="txtbox1">

@@ -8,14 +8,14 @@ class Leadership extends Component {
   render() {
     return (
       <div>
-        <div className="title-center"><h2 className="title">Leadership</h2><img src={BlueUnderline} style={{width:125, height: 5, marginTop: 0}}></img></div>
+        <div className="title-center"><h2 className="title">Leadership</h2><img src={BlueUnderline} style={{width:125, height: 5, marginBottom: 20}}></img></div>
         <ul className="yline">
           <ul className="xline">
             <div className="txtbox1">
               <div>
                 <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>Boston University Computer Science Ambassador</h4>
                 <li style={{listStyle: "none"}}>Mentor</li>
-                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>February 2022 - Current</li>
+                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>February 2022 - January 2023</li>
                 <li style={{listStyle: "none", marginTop: 20, fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}>Maintaining the organization's website and direct meetings with matched mentees to provide guidance. Building a stronger Computer Science community by guiding freshmen who are pursuing Computer Science. Have attended trainings on professional development, guiding mentees, and providing technical resources to others.</li>
               </div>
             </div>

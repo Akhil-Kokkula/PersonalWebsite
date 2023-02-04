@@ -11,7 +11,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div className="title-center"><h2 className="title">Projects</h2><img src={BlueUnderline} style={{width:100, height: 5, marginTop: 0}}></img></div>
+        <div className="title-center"><h2 className="title">Projects</h2><img src={BlueUnderline} style={{width:100, height: 5, marginBottom: 20}}></img></div>
         <ul className="yline">
           <ul className="xline">
             <div className="txtbox1">

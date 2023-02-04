@@ -1,3 +1,11 @@
 .center {
     font-family: sans-serif;
 }
+
+.bottom-bar {
+    background: aliceblue;
+    /* position: fixed; */
+    bottom: 0;
+    height: 80px;
+    margin-top: 100px;
+}
