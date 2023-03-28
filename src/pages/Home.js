@@ -16,6 +16,7 @@ import CSS from "./images/css.png";
 import Database from "./images/Database.png";
 import DataAnalysis from "./images/DataAnalysis.png";
 import Profile from "./images/profile2.png";
+import reactandnode from "./images/node-js_react-js.png";
 
 class Home extends Component {
   render() {
@@ -66,13 +67,13 @@ class Home extends Component {
           <ul className="xline2">
             <div className="txtboxV2"><img src={Java} style = {{width: 180,height: 170, marginLeft: 40, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>Java</h4></div>
             <div className="txtboxV2"><img src={Python} style = {{width: 150, height: 150, marginLeft: 55, marginTop: 35}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>Python</h4></div>
-            <div className="txtboxV2"><img src={ReactJS} style = {{width: 180,height: 150, marginLeft: 35, marginTop: 30}}/><h4 style={{textAlign: "center", marginTop: 40, fontFamily: 'Helvetica', fontWeight:"bold"}}>ReactJS</h4></div>
+            <div className="txtboxV2"><img src={reactandnode} style = {{width: 220, height: 130, marginLeft: 15, marginTop: 50}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>NodeJS and <br/> ReactJS</h4></div>
             <div className="txtboxV2"><img src={Flask} style = {{width: 160,height: 160, marginLeft: 45, marginTop: 30}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>Flask</h4></div>
           </ul>
           <ul className="xline2">
             <div className="txtboxV2"><img src={HTML} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>HTML</h4></div>
             <div className="txtboxV2"><img src={CSS} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 35, fontFamily: 'Helvetica', fontWeight:"bold"}}>CSS</h4></div>
-            <div className="txtboxV2"><img src={Database} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 15, fontFamily: 'Helvetica', fontWeight:"bold"}}>Database<br/> <span style={{fontSize: 18}}>(SQLite, MongoDB)</span></h4></div>
+            <div className="txtboxV2"><img src={Database} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 15, fontFamily: 'Helvetica', fontWeight:"bold"}}>Database<br/> <span style={{fontSize: 18}}>(MySQL, SQLite, MongoDB)</span></h4></div>
             <div className="txtboxV2"><img src={DataAnalysis} style = {{width: 180,height: 180, marginLeft: 35, marginTop: 15}}/><h4 style={{textAlign: "center", marginTop: 15, fontFamily: 'Helvetica', fontWeight:"bold"}}>Data Analysis<br/><span style={{fontSize: 18}}>(SQL, KQL, R)</span></h4></div>
           </ul>
       </ul>

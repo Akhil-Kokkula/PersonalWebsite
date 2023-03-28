@@ -6,6 +6,7 @@ import Lalmba from "./images/Lalmba.png";
 import AndroidApp from "./images/AndroidApp.mp4";
 import ToDoList from "./images/ToDoList.mp4";
 import Arrow from "./images/arrow.png";
+import typingcode from "./images/typing-code.png";
 
 class Projects extends Component {
   render() {
@@ -16,27 +17,30 @@ class Projects extends Component {
           <ul className="xline">
             <div className="txtbox1">
               <div>
-                <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>RhettRides</h4>
-                <li style={{listStyle: "none"}}>Boston University CleanTech Club</li>
-                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>January 2022 - Current</li>
-                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Ridesharing web application for Boston University students to promote carpooling <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> Flask, SQLite, HTML, CSS, JS <br />  <span style={{fontWeight: 'bold'}}>Contributions:</span> storage and retrieval of profile pictures, Gmail API to send emails, designed UI for displaying availble trips</p></li>
+                <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>Typing-Code.com</h4>
+                <li style={{listStyle: "none"}}>Web Application</li>
+                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>January 2023 - March 2023</li>
+                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Practice touch typing code <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack, Mongoose as ODM <br />  <span style={{fontWeight: 'bold'}}>Features Built:</span> Firebase autentication, lesson pages for each language, touch typing code feature, tracking user progress such as wpm, accuracy, and daily time spent. CI/CD deployment to Azure App Service via GitHub Actions. </p></li>
               </div>
             </div>
+            <div className="txtbox2">
+              <img src={typingcode} style={{ width: '550px', height: '350px', borderRadius: '10px', boxShadow: '15px 15px 20px 10px #e6e6e6'}}/>
+            </div>
+            
+          </ul>
+          <ul className="xline">
             <div className="txtbox2">
               <img src={RhettRides} style={{ width: '550px', height: '350px', borderRadius: '10px', boxShadow: '15px 15px 20px 10px #e6e6e6'}}/>
             </div>
-          </ul>
-          <ul className="xline">
-            <div className="txtbox1">
-              <img src={Lalmba} style={{ width: '550px', height: '350px', borderRadius: '10px', boxShadow: '15px 15px 20px 10px #e6e6e6'}}/>
-            </div>
             <div className="txtbox2">
+            <div className="txtbox1">
               <div>
-                <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>Lalmba Medical Info Project</h4>
-                <li style={{listStyle: "none"}}>Boston University Hack4Impact Club</li>
-                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>January 2023 - Current</li>
-                <li style={{listStyle: "none", marginTop: 20, fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><span style={{fontWeight: 'bold'}}>Description:</span> Keep track of patient medical info for rural communities in Africa <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> React Native <br />  <span style={{fontWeight: 'bold'}}>Contributions:</span> In progress</li>
+                <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>RhettRides</h4>
+                <li style={{listStyle: "none"}}>Boston University CleanTech Club</li>
+                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>January 2022 - Current</li>
+                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Ridesharing web application for Boston University students to promote carpooling <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> Flask, SQLite, HTML, CSS, JS <br />  <span style={{fontWeight: 'bold'}}>Contributions:</span> storage and retrieval of profile pictures, Gmail API to send emails, designed UI for displaying availble trips, profile page, and dashboard</p></li>
               </div>
+            </div>
             </div>
           </ul>
           <ul className="xline">
