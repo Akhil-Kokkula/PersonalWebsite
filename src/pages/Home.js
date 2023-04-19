@@ -37,7 +37,7 @@ class Home extends Component {
             <ul className="list-design2">
                 <li><a href="//www.linkedin.com/in/kokkula-akhil"><FaLinkedin size="1.5em" color="black"/></a></li>
                 <li><a href="https://github.com/Akhil-Kokkula"><FaGithub size="1.5em" color="black"/></a></li>
-                <li><a href="//kokkulaak@gmail.com"><FiMail size="1.5em" color="black"/></a></li>
+                <li><a href="mailto:kokkulaak@gmail.com"><FiMail size="1.5em" color="black"/></a></li>
             </ul>
         </div>
         <img src={Profile} className = "img-home" style={{width: "auto", height: 550, marginLeft: 750, marginTop: 30}}/>

@@ -20,7 +20,8 @@ class Projects extends Component {
                 <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>Typing-Code.com</h4>
                 <li style={{listStyle: "none"}}>Web Application</li>
                 <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>January 2023 - March 2023</li>
-                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Practice touch typing code <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack, Mongoose as ODM <br />  <span style={{fontWeight: 'bold'}}>Features Built:</span> Firebase autentication, lesson pages for each language, touch typing code feature, tracking user progress such as wpm, accuracy, and daily time spent. CI/CD deployment to Azure App Service via GitHub Actions. </p></li>
+                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Increase your coding speed <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack, Mongoose as ODM <br />  <span style={{fontWeight: 'bold'}}>Features Built:</span> Firebase autentication, lesson pages for each language, interactive typing interface that allows users to correct prior errors, tracking user progress such as wpm, accuracy, and daily time spent. Deployment via Heroku CLI. </p></li>
+                <li style = {{textAlign: "right", position: "absolute", bottom: 60, right: 0, fontFamily: 'Helvetica', fontSize: 17, color: "#3399ff"}}><a href = "https://www.typing-code.com" style={{textDecoration: "none"}}>View Site</a> <img src={Arrow} style = {{width: 25, height: 14, marginLeft: 5}}/></li>
               </div>
             </div>
             <div className="txtbox2">
@@ -38,7 +39,7 @@ class Projects extends Component {
                 <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>RhettRides</h4>
                 <li style={{listStyle: "none"}}>Boston University CleanTech Club</li>
                 <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>January 2022 - Current</li>
-                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Ridesharing web application for Boston University students to promote carpooling <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> Flask, SQLite, HTML, CSS, JS <br />  <span style={{fontWeight: 'bold'}}>Contributions:</span> storage and retrieval of profile pictures, Gmail API to send emails, designed UI for displaying availble trips, profile page, and dashboard</p></li>
+                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 17.3, fontWeight: 300}}><p> <span style={{fontWeight: 'bold'}}>Description:</span> Ridesharing web application for Boston University students to promote carpooling <br /> <span style={{fontWeight: 'bold'}}>Tech stack:</span> Flask, SQLite, HTML, CSS, JS <br />  <span style={{fontWeight: 'bold'}}>Contributions:</span> Trip route display via Google Maps API, email send via Gmail API, efficient storage and retrieval of profile pictures, designed UI for displaying available trips, profile page, and dashboard</p></li>
               </div>
             </div>
             </div>
