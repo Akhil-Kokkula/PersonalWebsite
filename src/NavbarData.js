@@ -1,27 +1,27 @@
 export const NavbarData = [
     {
         title: "Home",
-        url: "/",
+        url: "#/",
         cName: "nav-links",
     },
     {
         title: "About",
-        url: "/about",
+        url: "#/about",
         cName: "nav-links",
     },
     {
         title: "Experience",
-        url: "/experience",
+        url: "#/experience",
         cName: "nav-links",
     },
     {
         title: "Projects",
-        url: "/projects",
+        url: "#/projects",
         cName: "nav-links",
     },
     {
         title: "Leadership",
-        url: "/leadership",
+        url: "#/leadership",
         cName: "nav-links",
     },
     {

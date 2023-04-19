@@ -31,11 +31,11 @@ class NavBar2 extends Component {
                 </div>
                 <div>
                     <Routes>
-                            <Route path="/about" activeStyle={{color: 'gray'}} element={<About />}/>
-                            <Route path="/experience" element={<Experience/>}/>
-                            <Route path="/projects" element={<Projects/>}/>
-                            <Route path="/leadership" element={<Leadership/>}/>
                             <Route exact path="/" activeStyle={{color: 'gray'}} element={<Home />}/>
+                            <Route exact path="/about" activeStyle={{color: 'gray'}} element={<About />}/>
+                            <Route exact path="/experience" element={<Experience/>}/>
+                            <Route exact path="/projects" element={<Projects/>}/>
+                            <Route exact path="/leadership" element={<Leadership/>}/>
                     </Routes> 
                 </div>
                 
