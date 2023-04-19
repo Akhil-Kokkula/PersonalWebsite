@@ -1,7 +1,7 @@
 import {NavbarData} from "./NavbarData";
 import "./navbar.css";
 import { Component } from "react";
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Link, HashRouter} from "react-router-dom";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
@@ -31,11 +31,11 @@ class NavBar2 extends Component {
                 </div>
                 <div>
                     <Routes>
-                        <Route exact path="/" activeStyle={{color: 'gray'}} element={<Home />}/>
-                        <Route path="/about" activeStyle={{color: 'gray'}} element={<About />}/>
-                        <Route path="/experience" element={<Experience/>}/>
-                        <Route path="/projects" element={<Projects/>}/>
-                        <Route path="/leadership" element={<Leadership/>}/>
+                            <Route path="/about" activeStyle={{color: 'gray'}} element={<About />}/>
+                            <Route path="/experience" element={<Experience/>}/>
+                            <Route path="/projects" element={<Projects/>}/>
+                            <Route path="/leadership" element={<Leadership/>}/>
+                            <Route exact path="/" activeStyle={{color: 'gray'}} element={<Home />}/>
                     </Routes> 
                 </div>
                 
