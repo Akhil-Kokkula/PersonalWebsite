@@ -31,7 +31,7 @@ class Home extends Component {
                 <li>📚 Computer Science @ Boston University</li>
             </ul>
             <div className="button-container">
-                <Button variant="primary" href="/about" size="20px">About Me</Button>{' '}
+                <Button variant="primary" href="#/about" size="20px">About Me</Button>{' '}
             </div>
 
             <ul className="list-design2">
