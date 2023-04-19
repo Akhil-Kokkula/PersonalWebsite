@@ -17,7 +17,7 @@ class NavBar2 extends Component {
             <div>
                 <div>
                     <nav className="navbarItems">
-                        <h1><a href="/" className="nav-links-unique">Akhil Kokkula</a></h1>
+                        <h1><a href="#/" className="nav-links-unique">Akhil Kokkula</a></h1>
                         <ul className="navMenu">
                             {NavbarData.map((item, index) => {
                                 return (
