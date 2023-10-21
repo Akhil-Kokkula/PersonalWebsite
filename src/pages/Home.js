@@ -23,24 +23,26 @@ class Home extends Component {
     return (
     <div>
       <div className="container-home">
-        <div className="text-zone">
-            <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <img className="cursor" style={{marginBottom: 15}}/></h1>
-            <ul className="list-design">
-                <li>👨‍💻 Software Developer</li>
-                <li>💼 Former SWE Intern @ Microsoft</li>
-                <li>📚 Computer Science @ Boston University</li>
-            </ul>
-            <div className="button-container">
-                <a href="#/about"><Button variant="primary" size="20px">About Me</Button></a>{' '}
-            </div>
+        <div>
+          <div className="text-zone">
+              <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <img className="cursor" style={{marginBottom: 15}}/></h1>
+              <ul className="list-design">
+                  <li>👨‍💻 Software Developer</li>
+                  <li>💼 Former SWE Intern @ Microsoft</li>
+                  <li>📚 Computer Science @ Boston University</li>
+              </ul>
+              <div className="button-container">
+                  <a href="#/about"><Button variant="primary" size="20px">About Me</Button></a>{' '}
+              </div>
 
-            <ul className="list-design2">
-                <li><a href="//www.linkedin.com/in/kokkula-akhil"><FaLinkedin size="1.5em" color="black"/></a></li>
-                <li><a href="https://github.com/Akhil-Kokkula"><FaGithub size="1.5em" color="black"/></a></li>
-                <li><a href="mailto:kokkulaak@gmail.com"><FiMail size="1.5em" color="black"/></a></li>
-            </ul>
+              <ul className="list-design2">
+                  <li><a href="//www.linkedin.com/in/kokkula-akhil"><FaLinkedin size="1.5em" color="black"/></a></li>
+                  <li><a href="https://github.com/Akhil-Kokkula"><FaGithub size="1.5em" color="black"/></a></li>
+                  <li><a href="mailto:kokkulaak@gmail.com"><FiMail size="1.5em" color="black"/></a></li>
+              </ul>
+          </div>
+          <img src={Profile} className = "img-home" style={{width: "auto", height: 550, marginLeft: 750, marginTop: 30}}/>
         </div>
-        <img src={Profile} className = "img-home" style={{width: "auto", height: 550, marginLeft: 750, marginTop: 30}}/>
       </div>
       {/* <div className="container-home">
         <div className="text-zone">

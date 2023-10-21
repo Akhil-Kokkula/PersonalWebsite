@@ -2,11 +2,16 @@
     padding: 20px 50px;
     height: 600px;
     background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .container-about {
     padding: 0px 60px;
-    
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .title-center {
@@ -75,7 +80,7 @@
     list-style: none;
     display: grid;
     grid-template-rows: repeat(2, auto);
-    justify-content: flex-start;
+    justify-content: center;
     padding: 30px 0px 0px 0px;
     grid-gap: 10px;
     font-size: 20px;
@@ -96,7 +101,8 @@
     list-style: none;
     display: grid;
     grid-template-rows: repeat(2, auto);
-    justify-content: flex-start;
+    justify-content: center;
+    
 }
 
 .txtbox1 {
@@ -161,14 +167,14 @@
 
 .text-zone {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 80px;
     padding-bottom: 200;
 }
 
 .text-zone2 {
     position: absolute;
-    left: 15;
+    left: 100px;
     top: 10%;
 }
 
