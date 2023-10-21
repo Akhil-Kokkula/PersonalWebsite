@@ -27,7 +27,7 @@ class Home extends Component {
             <h1 className="title"> Hello, <br /> I'm Akhil Kokkula <img className="cursor" style={{marginBottom: 15}}/></h1>
             <ul className="list-design">
                 <li>👨‍💻 Software Developer</li>
-                <li>💼 Incoming SWE Intern @ Microsoft</li>
+                <li>💼 Former SWE Intern @ Microsoft</li>
                 <li>📚 Computer Science @ Boston University</li>
             </ul>
             <div className="button-container">

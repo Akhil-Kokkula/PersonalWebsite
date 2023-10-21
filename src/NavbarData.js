@@ -26,7 +26,7 @@ export const NavbarData = [
     },
     {
         title: "Resume",
-        url: "https://drive.google.com/file/d/17WPb1bjmQz10ccrWXM-F3DbIA6mkZWNz/view?usp=sharing",
+        url: "",
         cName: "nav-links",
     },
 

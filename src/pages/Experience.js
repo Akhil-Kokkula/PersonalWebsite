@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MetaLogo from "./images/Meta-logo.jpeg";
 import ExploreIntern from "./images/ExploreIntern.jpeg";
+import MicrosoftSWEIntern from "./images/MicrosoftSWE.jpg";
 import BlueUnderlineDrawn from "./images/BlueUnderlineDrawn.png";
 import BlueUnderline from "./images/BlueUnderline.png"
 
@@ -10,6 +11,18 @@ class Experience extends Component {
       <div>
         <div className="title-center"><h2 className="title">Experience</h2><img src={BlueUnderline} style={{width:125, height: 5, marginBottom: 20}}/></div>
         <ul className="yline">
+          <ul className="xline">
+            <div className="txtbox1">
+              <img src={MicrosoftSWEIntern} style={{ width: '550px', height: '400px', borderRadius: 10, boxShadow: '10px 10px 5px 5px #e6e6e6'}}/>
+            </div>
+            <div className="txtbox2">
+              <div>
+                <h4 style={{marginTop: 20, fontFamily: 'Helvetica', fontWeight: "bold"}}>Microsoft Software Engineer Intern - Azure Core </h4>
+                <li style={{listStyle: "none", fontFamily: 'Helvetica', marginTop: 5, fontSize: 16, fontStyle: "italic"}}>May 2023 - August 2023</li>
+                <li style={{listStyle: "none", fontFamily: 'Arial', marginTop: 15, fontSize: 18, fontWeight: 300}}>Developed an interactive Azure Data Explorer dashboard with data views from KQL queries to enhance visibility and accountability of hardware resources utilization and its financial impact across 100+ Azure teams to guide efficient usage. Used C# and .NET Kusto SDK to develop an automated ETL pipeline and end-to-end data validation for the pipeline. Completed the entire software development lifecycle, encompassing design documentation, task creation, implementation, data validation, PR code reviews, and ensuring long-term maintainability</li>
+              </div>
+            </div>
+          </ul>
           <ul className="xline">
             <div className="txtbox1">
               <div>
