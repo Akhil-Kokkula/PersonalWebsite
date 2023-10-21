@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.a0790a2d.css",
-    "main.js": "/PersonalWebsite/static/js/main.4c1e43dd.js",
+    "main.css": "/PersonalWebsite/static/css/main.b853897f.css",
+    "main.js": "/PersonalWebsite/static/js/main.58774040.js",
     "static/js/787.1ed0c42c.chunk.js": "/PersonalWebsite/static/js/787.1ed0c42c.chunk.js",
     "static/media/ToDoList.mp4": "/PersonalWebsite/static/media/ToDoList.37b4fca70a9e6fcc7c4a.mp4",
     "static/media/profile2.png": "/PersonalWebsite/static/media/profile2.077593a158a5b1257025.png",
     "static/media/sideProfile.png": "/PersonalWebsite/static/media/sideProfile.63dcd3cb17d733b64fa2.png",
+    "static/media/MicrosoftSWE.jpg": "/PersonalWebsite/static/media/MicrosoftSWE.1e573366bf864207d508.jpg",
     "static/media/AndroidApp.mp4": "/PersonalWebsite/static/media/AndroidApp.b1a56b9b62383f030497.mp4",
     "static/media/ExploreIntern.jpeg": "/PersonalWebsite/static/media/ExploreIntern.35e627216c3e50efa513.jpeg",
     "static/media/typing-code.png": "/PersonalWebsite/static/media/typing-code.6afc373fd2aa07561f19.png",
@@ -14,6 +15,7 @@
     "static/media/RhettRides.png": "/PersonalWebsite/static/media/RhettRides.075efb1447e017e23d71.png",
     "static/media/Lalmba.png": "/PersonalWebsite/static/media/Lalmba.a2ec7e58e793c194c91a.png",
     "static/media/react.png": "/PersonalWebsite/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/GithubLogo.png": "/PersonalWebsite/static/media/GithubLogo.6f33a12285560f6518a5.png",
     "static/media/Database.png": "/PersonalWebsite/static/media/Database.c6e940586afde5776bfe.png",
     "static/media/DataAnalysis.png": "/PersonalWebsite/static/media/DataAnalysis.8af2469dd4ce8b8670ad.png",
     "static/media/Meta-logo.jpeg": "/PersonalWebsite/static/media/Meta-logo.38d0c324cfe54c3e4ab5.jpeg",
@@ -25,12 +27,12 @@
     "static/media/Java.jpeg": "/PersonalWebsite/static/media/Java.85efcd6616c09bcab90b.jpeg",
     "static/media/BlueUnderlineDrawn.png": "/PersonalWebsite/static/media/BlueUnderlineDrawn.0daa36dadbafb8c4586d.png",
     "index.html": "/PersonalWebsite/index.html",
-    "main.a0790a2d.css.map": "/PersonalWebsite/static/css/main.a0790a2d.css.map",
-    "main.4c1e43dd.js.map": "/PersonalWebsite/static/js/main.4c1e43dd.js.map",
+    "main.b853897f.css.map": "/PersonalWebsite/static/css/main.b853897f.css.map",
+    "main.58774040.js.map": "/PersonalWebsite/static/js/main.58774040.js.map",
     "787.1ed0c42c.chunk.js.map": "/PersonalWebsite/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0790a2d.css",
-    "static/js/main.4c1e43dd.js"
+    "static/css/main.b853897f.css",
+    "static/js/main.58774040.js"
   ]
 }
