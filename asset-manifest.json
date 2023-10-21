@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.b853897f.css",
+    "main.js": "/PersonalWebsite/static/js/main.58774040.js",
+    "static/js/787.1ed0c42c.chunk.js": "/PersonalWebsite/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ToDoList.mp4": "/PersonalWebsite/static/media/ToDoList.37b4fca70a9e6fcc7c4a.mp4",
+    "static/media/profile2.png": "/PersonalWebsite/static/media/profile2.077593a158a5b1257025.png",
+    "static/media/sideProfile.png": "/PersonalWebsite/static/media/sideProfile.63dcd3cb17d733b64fa2.png",
+    "static/media/MicrosoftSWE.jpg": "/PersonalWebsite/static/media/MicrosoftSWE.1e573366bf864207d508.jpg",
+    "static/media/AndroidApp.mp4": "/PersonalWebsite/static/media/AndroidApp.b1a56b9b62383f030497.mp4",
+    "static/media/ExploreIntern.jpeg": "/PersonalWebsite/static/media/ExploreIntern.35e627216c3e50efa513.jpeg",
+    "static/media/typing-code.png": "/PersonalWebsite/static/media/typing-code.6afc373fd2aa07561f19.png",
+    "static/media/python.png": "/PersonalWebsite/static/media/python.6eb024c1740a9437a6e7.png",
+    "static/media/BUCSA_logo.png": "/PersonalWebsite/static/media/BUCSA_logo.4c738762f0c4bfdc69fe.png",
+    "static/media/RhettRides.png": "/PersonalWebsite/static/media/RhettRides.075efb1447e017e23d71.png",
+    "static/media/Lalmba.png": "/PersonalWebsite/static/media/Lalmba.a2ec7e58e793c194c91a.png",
+    "static/media/react.png": "/PersonalWebsite/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/GithubLogo.png": "/PersonalWebsite/static/media/GithubLogo.6f33a12285560f6518a5.png",
+    "static/media/Database.png": "/PersonalWebsite/static/media/Database.c6e940586afde5776bfe.png",
+    "static/media/DataAnalysis.png": "/PersonalWebsite/static/media/DataAnalysis.8af2469dd4ce8b8670ad.png",
+    "static/media/Meta-logo.jpeg": "/PersonalWebsite/static/media/Meta-logo.38d0c324cfe54c3e4ab5.jpeg",
+    "static/media/node-js_react-js.png": "/PersonalWebsite/static/media/node-js_react-js.22967580cdd1120961e6.png",
+    "static/media/hack4impact2.jpeg": "/PersonalWebsite/static/media/hack4impact2.6d95bb9dc2d3d2288b7c.jpeg",
+    "static/media/Html.png": "/PersonalWebsite/static/media/Html.ccf224dda5bfc2d7f1d1.png",
+    "static/media/HourOfCode.jpeg": "/PersonalWebsite/static/media/HourOfCode.15411abf53ced2a736c4.jpeg",
+    "static/media/css.png": "/PersonalWebsite/static/media/css.bc75ccc78e3bf74f8aed.png",
+    "static/media/Java.jpeg": "/PersonalWebsite/static/media/Java.85efcd6616c09bcab90b.jpeg",
+    "static/media/BlueUnderlineDrawn.png": "/PersonalWebsite/static/media/BlueUnderlineDrawn.0daa36dadbafb8c4586d.png",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.b853897f.css.map": "/PersonalWebsite/static/css/main.b853897f.css.map",
+    "main.58774040.js.map": "/PersonalWebsite/static/js/main.58774040.js.map",
+    "787.1ed0c42c.chunk.js.map": "/PersonalWebsite/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b853897f.css",
+    "static/js/main.58774040.js"
+  ]
+}
